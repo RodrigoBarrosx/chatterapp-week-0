@@ -1,0 +1,27 @@
+<!-- MainView DatePicker Start -->
+<div id="datebar" class="topbar text-white">
+    <h1 id="datedisplay" class="pull-left text-center">Today</h1>
+  <!-- This button jumps to the next day and enables the previous button -->
+    <button id="buttonDateRight" class="btn-square pull-right" onclick="updateWeatherHtml()">
+        <i class="fa fa-chevron-right"></i>
+    </button>
+    <div class="clear"></div>
+</div>
+<div id="mainview-content">
+<div id="icon">
+<img id="iconimage" src="img/partly-cloudy-day.png" alt="weather">
+</div>
+<div id="summary" class="text-center">
+Partly cloudy throughout the day
+</div>
+<div id="temperature" class="text-center">15 °C</div>
+<div id="additional-info">
+        <span id="wind" class="info pull-left">
+            <i class="fa fa-flag"></i> <span id="winddisplay">23 km/h</span>
+        </span>
+        <span id="humidity" class="info pull-left">
+            <i class="fa fa-tint"></i> <span id="humiditydisplay">68%</span>
+        </span>
+        <span class="clear"></span>
+    </div>
+</div>
